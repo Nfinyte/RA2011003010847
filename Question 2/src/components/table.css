@@ -1,0 +1,31 @@
+/* TrainTable.css */
+
+.train-table-container {
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.train-table {
+  width: 100%;
+}
+
+.train-table th {
+  font-weight: bold;
+  background-color: #f3f3f3;
+}
+
+.train-table td,
+.train-table th {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.train-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.train-table tbody tr:hover {
+  background-color: #f2f2f2;
+}
